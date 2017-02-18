@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TransLIT NodeRED
+  host: TransLIT-NodeRED
+  disk_quota: 1024M
+  services:
+  - TransLIT NodeRED-cloudantNoSQLDB
+  - Language Translator-9q
